@@ -66,7 +66,15 @@ struct ContentView: View {
     }
 }
 
-
+//#Preview("list with sample data") {
+//    let container = try! ModelContainer(for: Wish.self, configurations: ModelConfiguration(isStoredInMemoryOnly: true))
+//    container.mainContext.insert(Wish(title: "wish 1"))
+//    container.mainContext.insert(Wish(title: "wish 2"))
+//    container.mainContext.insert(Wish(title: "wish 3"))
+//
+//    ContentView()
+//        .modelContainer(container)
+//}
 
 
 #Preview("empty list") {
